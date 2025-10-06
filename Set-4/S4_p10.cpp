@@ -15,10 +15,10 @@ public:
     }
 };
 
-void swap(Employee &e1, Employee &e2) {
-    Employee temp = e1;
-    e1 = e2;
-    e2 = temp;
+void swap(Employee *e1, Employee *e2) {
+    Employee temp = *e1;
+    *e1 = *e2;
+    *e2 = temp;
 }
 
 int main() {
@@ -36,9 +36,11 @@ int main() {
     cout << "After updating Alice's salary:" << endl;
     cout << e1.name << " salary: " << e1.salary << endl;
 
-    swap(e1, e2);
+    swap(&e1, &e2); 
     cout << "After swapping:" << endl;
     cout << e1.name << " salary: " << e1.salary << endl;
     cout << e2.name << " salary: " << e2.salary << endl;
+
     return 0;
 }
+
