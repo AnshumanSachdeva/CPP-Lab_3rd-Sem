@@ -1,0 +1,4 @@
+D:/MEGA/Practice/SCMS/build/CMakeFiles/scms.dir
+D:/MEGA/Practice/SCMS/build/CMakeFiles/create_dirs.dir
+D:/MEGA/Practice/SCMS/build/CMakeFiles/edit_cache.dir
+D:/MEGA/Practice/SCMS/build/CMakeFiles/rebuild_cache.dir
