@@ -1,0 +1,3 @@
+This file is the source file.
+Its content will be copied
+to another destination file.

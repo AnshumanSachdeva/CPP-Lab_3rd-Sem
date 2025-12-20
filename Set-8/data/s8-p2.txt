@@ -1,0 +1,3 @@
+C++ is powerful
+File handling is important
+This is practice

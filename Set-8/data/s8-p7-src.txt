@@ -1,0 +1,3 @@
+Copy this file
+character by character
+using get and put
