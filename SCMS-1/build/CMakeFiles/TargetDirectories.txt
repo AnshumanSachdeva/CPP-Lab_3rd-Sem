@@ -1,4 +1,4 @@
-D:/MEGA/Practice/SCMS/build/CMakeFiles/scms.dir
-D:/MEGA/Practice/SCMS/build/CMakeFiles/create_dirs.dir
-D:/MEGA/Practice/SCMS/build/CMakeFiles/edit_cache.dir
-D:/MEGA/Practice/SCMS/build/CMakeFiles/rebuild_cache.dir
+D:/MEGA/Practice/Github/CPP-Lab_3rd-Sem/SCMS-1/build/CMakeFiles/scms.dir
+D:/MEGA/Practice/Github/CPP-Lab_3rd-Sem/SCMS-1/build/CMakeFiles/create_dirs.dir
+D:/MEGA/Practice/Github/CPP-Lab_3rd-Sem/SCMS-1/build/CMakeFiles/ALL_BUILD.dir
+D:/MEGA/Practice/Github/CPP-Lab_3rd-Sem/SCMS-1/build/CMakeFiles/ZERO_CHECK.dir

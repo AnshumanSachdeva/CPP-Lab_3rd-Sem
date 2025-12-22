@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\MEGA\Practice\Github\CPP-Lab_3rd-Sem\SCMS-1\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MEGA\Practice\Github\CPP-Lab_3rd-Sem\SCMS-1\src\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MEGA\Practice\Github\CPP-Lab_3rd-Sem\SCMS-1\src\person.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MEGA\Practice\Github\CPP-Lab_3rd-Sem\SCMS-1\src\student.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MEGA\Practice\Github\CPP-Lab_3rd-Sem\SCMS-1\src\teacher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MEGA\Practice\Github\CPP-Lab_3rd-Sem\SCMS-1\src\admin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MEGA\Practice\Github\CPP-Lab_3rd-Sem\SCMS-1\src\authManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MEGA\Practice\Github\CPP-Lab_3rd-Sem\SCMS-1\src\course.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MEGA\Practice\Github\CPP-Lab_3rd-Sem\SCMS-1\src\courseManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\MEGA\Practice\Github\CPP-Lab_3rd-Sem\SCMS-1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1C373578-7FF1-3FD9-9EAF-95BA9E984988}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

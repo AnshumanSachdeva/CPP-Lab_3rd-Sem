@@ -1,0 +1,22 @@
+^D:\MEGA\PRACTICE\GITHUB\CPP-LAB_3RD-SEM\SCMS-1\BUILD\CMAKEFILES\0527413292E67D5EDCDD2B3A804D46BB\CREATE_DIRS.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/MEGA/Practice/Github/CPP-Lab_3rd-Sem/SCMS-1/build/data
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/MEGA/Practice/Github/CPP-Lab_3rd-Sem/SCMS-1/build/logs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\MEGA\PRACTICE\GITHUB\CPP-LAB_3RD-SEM\SCMS-1\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/MEGA/Practice/Github/CPP-Lab_3rd-Sem/SCMS-1 -BD:/MEGA/Practice/Github/CPP-Lab_3rd-Sem/SCMS-1/build --check-stamp-file D:/MEGA/Practice/Github/CPP-Lab_3rd-Sem/SCMS-1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
