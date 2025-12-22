@@ -1,0 +1,24 @@
+[Fri Dec 19 22:39:58 2025] [SYSTEM] [SYSTEM] System Started
+[Fri Dec 19 22:39:58 2025] [INFO] [SYSTEM] SCMS System Started
+[Fri Dec 19 22:40:07 2025] [INFO] [SYSTEM] View courses selected
+[Fri Dec 19 22:40:12 2025] [INFO] [SYSTEM] Register option selected
+[Fri Dec 19 22:40:34 2025] [INFO] [AUTH] New user registered: Anshuman (Role: admin)
+[Fri Dec 19 22:40:42 2025] [INFO] [SYSTEM] Login option selected
+[Fri Dec 19 22:40:52 2025] [INFO] [AUTH] Login successful: Anshuman (Role: admin)
+[Fri Dec 19 22:41:53 2025] [INFO] [COURSE] Saved 1 courses to file
+[Fri Dec 19 22:41:53 2025] [INFO] [COURSE] Course added: CST - 3301
+[Fri Dec 19 22:42:18 2025] [INFO] [AUTH] User logged out: Anshuman
+[Fri Dec 19 22:42:22 2025] [INFO] [SYSTEM] Register option selected
+[Fri Dec 19 22:42:41 2025] [INFO] [AUTH] New user registered: Swayam (Role: student)
+[Fri Dec 19 22:42:47 2025] [INFO] [SYSTEM] View courses selected
+[Fri Dec 19 22:42:50 2025] [INFO] [SYSTEM] Login option selected
+[Fri Dec 19 22:42:57 2025] [INFO] [AUTH] Login successful: Swayam (Role: student)
+[Fri Dec 19 22:43:33 2025] [INFO] [COURSE] Saved 1 courses to file
+[Fri Dec 19 22:43:33 2025] [INFO] [COURSE] Student 1001 enrolled in CST
+[Fri Dec 19 22:43:51 2025] [INFO] [AUTH] User logged out: Swayam
+[Fri Dec 19 22:43:52 2025] [INFO] [SYSTEM] System shutdown requested
+[Fri Dec 19 22:43:52 2025] [SYSTEM] [SYSTEM] System Shutdown
+[Sun Dec 21 21:10:12 2025] [SYSTEM] [SYSTEM] System Started
+[Sun Dec 21 21:10:12 2025] [INFO] [SYSTEM] SCMS System Started - Assignment 2
+[Sun Dec 21 21:11:31 2025] [INFO] [SYSTEM] Testing Assignment 2 features
+[Sun Dec 21 21:11:45 2025] [ERROR] [ATTENDANCE] Mark attendance failed: Invalid status. Use P or A only

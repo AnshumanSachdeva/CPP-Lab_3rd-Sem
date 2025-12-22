@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\MEGA\Practice\SCMS\build\CMakeFiles\bd58602745ad77dfde9ca10a0e6bc9b4\create_dirs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\MEGA\Practice\SCMS\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\MEGA\Practice\SCMS\build\CMakeFiles\create_dirs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F6A6B1E9-31F0-3E8B-9A2D-5785432FFEFE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

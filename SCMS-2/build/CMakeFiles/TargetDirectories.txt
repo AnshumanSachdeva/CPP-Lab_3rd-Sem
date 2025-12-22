@@ -1,0 +1,4 @@
+D:/MEGA/Practice/SCMS/build/CMakeFiles/scms.dir
+D:/MEGA/Practice/SCMS/build/CMakeFiles/create_dirs.dir
+D:/MEGA/Practice/SCMS/build/CMakeFiles/ALL_BUILD.dir
+D:/MEGA/Practice/SCMS/build/CMakeFiles/ZERO_CHECK.dir

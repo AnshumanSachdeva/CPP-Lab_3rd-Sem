@@ -1,0 +1,38 @@
+^D:\MEGA\PRACTICE\SCMS\BUILD\CMAKEFILES\BD58602745AD77DFDE9CA10A0E6BC9B4\CREATE_DIRS.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/MEGA/Practice/SCMS/data
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/MEGA/Practice/SCMS/logs
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/MEGA/Practice/SCMS/data/users.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/MEGA/Practice/SCMS/data/courses.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/MEGA/Practice/SCMS/data/attendence.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/MEGA/Practice/SCMS/data/exams.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/MEGA/Practice/SCMS/data/marks.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/MEGA/Practice/SCMS/data/books.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/MEGA/Practice/SCMS/data/transactions.log
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/MEGA/Practice/SCMS/logs/scms.log
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\MEGA\PRACTICE\SCMS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/MEGA/Practice/SCMS -BD:/MEGA/Practice/SCMS/build --check-stamp-file D:/MEGA/Practice/SCMS/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

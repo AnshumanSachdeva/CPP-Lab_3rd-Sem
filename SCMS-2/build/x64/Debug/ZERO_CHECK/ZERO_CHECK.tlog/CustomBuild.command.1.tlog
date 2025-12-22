@@ -1,0 +1,10 @@
+^D:\MEGA\PRACTICE\SCMS\BUILD\CMAKEFILES\BD58602745AD77DFDE9CA10A0E6BC9B4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/MEGA/Practice/SCMS -BD:/MEGA/Practice/SCMS/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/MEGA/Practice/SCMS/build/SCMS.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
